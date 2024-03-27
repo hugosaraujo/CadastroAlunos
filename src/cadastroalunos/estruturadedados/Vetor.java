@@ -13,8 +13,21 @@ public class Vetor {
         totalDeAlunos++;
     }
 
+    public int tamanho(){
+        return totalDeAlunos;
+    }
+
     public void pega(int posicao){
         //vai ser um int, modificado para não dar erro;
+    }
+
+    public boolean contem(Aluno aluno) {
+        for (int i = 0; i < totalDeAlunos; i++) {
+            if(aluno.equals(alunos[i])){
+                return true;
+            }
+        }
+        return false;
     }
 
     public void remove(){
@@ -23,10 +36,6 @@ public class Vetor {
 
     public boolean devolve(){
         return false;
-    }
-
-    public int tamanho(){
-        return 0;
     }
 
     @Override
