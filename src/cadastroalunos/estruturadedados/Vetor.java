@@ -13,6 +13,14 @@ public class Vetor {
         totalDeAlunos++;
     }
 
+    public void adiciona(int posicao, Aluno aluno){
+        for(int i = totalDeAlunos - 1; i >= posicao; i--){
+            alunos[i + 1] = alunos[i];
+        }
+        alunos[posicao] = aluno;
+        totalDeAlunos++;
+    }
+
     public int tamanho(){
         return totalDeAlunos;
     }
