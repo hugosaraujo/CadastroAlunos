@@ -24,5 +24,7 @@ public class VetorTeste {
         System.out.println(listaDeAlunos.toString());
         System.out.println(listaDeAlunos.contem(a1));
         System.out.println(listaDeAlunos.contem(a4));
+        System.out.println(listaDeAlunos.pega(2));
+        System.out.println(listaDeAlunos.pega(300));
     }
 }

@@ -17,8 +17,15 @@ public class Vetor {
         return totalDeAlunos;
     }
 
-    public void pega(int posicao){
-        //vai ser um int, modificado para não dar erro;
+    public Aluno pega(int posicao){
+        if (!posicaoOcupada(posicao)){
+            throw new IllegalArgumentException("posicao inválida");
+        }
+        return alunos[posicao];
+    }
+
+    private boolean posicaoOcupada(int posicao){
+        return posicao >= 0 && posicao < totalDeAlunos;
     }
 
     public boolean contem(Aluno aluno) {
