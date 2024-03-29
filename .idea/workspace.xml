@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f268f27d-2528-43a2-a7a4-9956afbda8c8" name="Changes" comment="implementação da função pega, para pegar um determinado elemento da lista.">
+    <list default="true" id="f268f27d-2528-43a2-a7a4-9956afbda8c8" name="Changes" comment="implementação de um novo método adiciona, para escolher a posição na lista ao adicionar um novo aluno">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cadastroalunos/estruturadedados/Vetor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cadastroalunos/estruturadedados/Vetor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cadastroalunos/principal/VetorTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cadastroalunos/principal/VetorTeste.java" afterDir="false" />
@@ -86,7 +86,8 @@
       <workItem from="1711453223756" duration="773000" />
       <workItem from="1711454024094" duration="1813000" />
       <workItem from="1711540091848" duration="3795000" />
-      <workItem from="1711621526667" duration="6278000" />
+      <workItem from="1711621526667" duration="7497000" />
+      <workItem from="1711736220006" duration="2046000" />
     </task>
     <task id="LOCAL-00001" summary="Criação de classe vetor e implementação do método adiciona do vetor">
       <option name="closed" value="true" />
@@ -112,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711624830107</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implementação de um novo método adiciona, para escolher a posição na lista ao adicionar um novo aluno">
+      <option name="closed" value="true" />
+      <created>1711628381529</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711628381529</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +131,8 @@
     <MESSAGE value="Criação de classe vetor e implementação do método adiciona do vetor" />
     <MESSAGE value="implementação dos métodos tamanho e contem" />
     <MESSAGE value="implementação da função pega, para pegar um determinado elemento da lista." />
-    <option name="LAST_COMMIT_MESSAGE" value="implementação da função pega, para pegar um determinado elemento da lista." />
+    <MESSAGE value="implementação de um novo método adiciona, para escolher a posição na lista ao adicionar um novo aluno" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementação de um novo método adiciona, para escolher a posição na lista ao adicionar um novo aluno" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

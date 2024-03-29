@@ -27,5 +27,7 @@ public class VetorTeste {
         System.out.println(listaDeAlunos.pega(2));
         listaDeAlunos.adiciona(2, a4);
         System.out.println(listaDeAlunos.toString());
+        listaDeAlunos.remove(2);
+        System.out.println(listaDeAlunos.toString());
     }
 }
