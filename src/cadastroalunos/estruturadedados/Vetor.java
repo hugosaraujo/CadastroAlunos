@@ -57,15 +57,9 @@ public class Vetor {
     public void garanteEspaco(){
         if(totalDeAlunos == alunos.length) {
             Aluno[] novoArray = new Aluno[alunos.length * 2];
-            for (int i = 0; i < alunos.length; i++) {
-                novoArray[i] = alunos[i];
-            }
+            System.arraycopy(alunos, 0, novoArray, 0, alunos.length);
             this.alunos = novoArray;
         }
-    }
-
-    public boolean devolve(){
-        return false;
     }
 
     @Override
