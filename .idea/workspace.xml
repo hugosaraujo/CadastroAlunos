@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f268f27d-2528-43a2-a7a4-9956afbda8c8" name="Changes" comment="Implementação de função para aumentar o tamanho do array em questão.">
+    <list default="true" id="f268f27d-2528-43a2-a7a4-9956afbda8c8" name="Changes" comment="refatoração de código do chamamento do vetor na main">
+      <change afterPath="$PROJECT_DIR$/src/cadastroalunos/estruturadedados/ListaLigada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cadastroalunos/modelos/Celula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cadastroalunos/principal/TestaListaLigada.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cadastroalunos/estruturadedados/Vetor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cadastroalunos/estruturadedados/Vetor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cadastroalunos/principal/VetorTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cadastroalunos/principal/VetorTeste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,22 +37,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.VetorTeste.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.TestaListaLigada.executor": "Run",
+    "Application.VetorTeste.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.TestaListaLigada">
+    <configuration name="TestaListaLigada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cadastroalunos.principal.TestaListaLigada" />
+      <module name="CadastroAlunos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cadastroalunos.principal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VetorTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cadastroalunos.principal.VetorTeste" />
       <module name="CadastroAlunos" />
@@ -67,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestaListaLigada" />
         <item itemvalue="Application.VetorTeste" />
       </list>
     </recent_temporary>
@@ -90,7 +106,8 @@
       <workItem from="1711454024094" duration="1813000" />
       <workItem from="1711540091848" duration="3795000" />
       <workItem from="1711621526667" duration="7497000" />
-      <workItem from="1711736220006" duration="3033000" />
+      <workItem from="1711736220006" duration="3258000" />
+      <workItem from="1711801408727" duration="7497000" />
     </task>
     <task id="LOCAL-00001" summary="Criação de classe vetor e implementação do método adiciona do vetor">
       <option name="closed" value="true" />
@@ -140,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711738740287</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refatoração de código do chamamento do vetor na main">
+      <option name="closed" value="true" />
+      <created>1711739384051</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711739384051</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +178,8 @@
     <MESSAGE value="implementação de um novo método adiciona, para escolher a posição na lista ao adicionar um novo aluno" />
     <MESSAGE value="Adição de README ao projeto" />
     <MESSAGE value="Implementação de função para aumentar o tamanho do array em questão." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação de função para aumentar o tamanho do array em questão." />
+    <MESSAGE value="refatoração de código do chamamento do vetor na main" />
+    <option name="LAST_COMMIT_MESSAGE" value="refatoração de código do chamamento do vetor na main" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
