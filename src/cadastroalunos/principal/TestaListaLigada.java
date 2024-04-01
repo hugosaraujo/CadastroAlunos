@@ -16,5 +16,11 @@ public class TestaListaLigada {
         System.out.println(lista);
         lista.adiciona(2, "alanis");
         System.out.println(lista);
+
+        Object x = lista.pega(3);
+        System.out.println(x);
+        System.out.println(lista.tamanho());
+
+
     }
 }

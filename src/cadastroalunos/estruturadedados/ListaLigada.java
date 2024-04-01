@@ -53,9 +53,14 @@ public class ListaLigada {
         }
         return atual;
     }
-    public Object pega(int posicao){return null;}
-    public void remove(int posicao) {}
-    public int tamanho(){return 0;}
+    public Object pega(int posicao){
+        return this.pegaCelula(posicao).getElemento();
+    }
+    public void remove(int posicao) {
+    }
+    public int tamanho(){
+        return this.totalDeElementos;
+    }
     public boolean contem(Object elemento){return false;}
 
     @Override
