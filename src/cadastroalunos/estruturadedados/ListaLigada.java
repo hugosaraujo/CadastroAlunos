@@ -56,8 +56,20 @@ public class ListaLigada {
     public Object pega(int posicao){
         return this.pegaCelula(posicao).getElemento();
     }
-    public void remove(int posicao) {
+
+    public void removeDoComeco(){
+        if(this.totalDeElementos == 0){
+            throw new IllegalArgumentException("lista vazia");
+        }
+
+        this.primeira = this.primeira.getProximo();
+        this.totalDeElementos--;
+
+        if(this.totalDeElementos == 0) {
+            this.ultima = null;
+        }
     }
+    public void remove(int posicao) {}
     public int tamanho(){
         return this.totalDeElementos;
     }

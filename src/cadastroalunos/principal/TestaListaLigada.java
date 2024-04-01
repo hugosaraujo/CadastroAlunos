@@ -21,6 +21,7 @@ public class TestaListaLigada {
         System.out.println(x);
         System.out.println(lista.tamanho());
 
-
+        lista.removeDoComeco();
+        System.out.println(lista);
     }
 }
