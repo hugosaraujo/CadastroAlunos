@@ -12,6 +12,9 @@ public class TestaListaLigada {
         lista.adicionaNoComeco("hermione");
         System.out.println(lista);
         lista.adicionaNoComeco("luna");
-        System.out.println();
+        lista.adiciona("tom");
+        System.out.println(lista);
+        lista.adiciona(2, "alanis");
+        System.out.println(lista);
     }
 }

@@ -17,8 +17,42 @@ public class ListaLigada {
 
         this.totalDeElementos++;
     }
-    public void adiciona(Object Elemento){}
-    public void adiciona(int posicao, Object elemento){}
+    public void adiciona(Object elemento){
+        if(totalDeElementos == 0){
+            adicionaNoComeco(elemento);
+        }
+        else{
+            Celula nova = new Celula(elemento, null);
+            this.ultima.setProximo(nova);
+            this.ultima = nova;
+            totalDeElementos++;
+        }
+    }
+    public void adiciona(int posicao, Object elemento){
+        if(posicao == 0){
+            adicionaNoComeco(elemento);
+        } else if(posicao == this.totalDeElementos) {
+            adiciona(elemento);
+        } else {
+            Celula anterior = this.pegaCelula(posicao - 1);
+            Celula nova = new Celula(elemento, anterior.getProximo());
+            anterior.setProximo(nova);
+            this.totalDeElementos++;
+        }
+    }
+    private boolean posicaoOcupada(int posicao){
+        return posicao >= 0 && posicao < this.totalDeElementos;
+    }
+    private Celula pegaCelula(int posicao){
+        if(!posicaoOcupada(posicao)){
+            throw new IllegalArgumentException("posicao inexistente");
+        }
+        Celula atual = primeira;
+        for (int i = 0; i < posicao; i++) {
+            atual = atual.getProximo();
+        }
+        return atual;
+    }
     public Object pega(int posicao){return null;}
     public void remove(int posicao) {}
     public int tamanho(){return 0;}
