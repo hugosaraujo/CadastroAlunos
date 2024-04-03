@@ -9,19 +9,16 @@ public class TestaListaLigada {
         System.out.println(lista);
         lista.adicionaNoComeco("mauricio");
         System.out.println(lista);
-        lista.adicionaNoComeco("hermione");
-        System.out.println(lista);
-        lista.adicionaNoComeco("luna");
         lista.adiciona("tom");
         System.out.println(lista);
         lista.adiciona(2, "alanis");
         System.out.println(lista);
 
-        Object x = lista.pega(3);
+        Object x = lista.pega(2);
         System.out.println(x);
         System.out.println(lista.tamanho());
 
-        lista.removeDoComeco();
+        lista.remove(1);
         System.out.println(lista);
     }
 }
