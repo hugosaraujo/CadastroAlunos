@@ -20,5 +20,7 @@ public class TestaListaLigada {
 
         lista.remove(1);
         System.out.println(lista);
+        System.out.println(lista.contem("mauricio"));
+        System.out.println(lista.contem("douglas"));
     }
 }

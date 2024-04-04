@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f268f27d-2528-43a2-a7a4-9956afbda8c8" name="Changes" comment="Implementação do método remove no começo">
+    <list default="true" id="f268f27d-2528-43a2-a7a4-9956afbda8c8" name="Changes" comment="implementação de métodos removeDoFim e remove">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cadastroalunos/estruturadedados/ListaLigada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cadastroalunos/estruturadedados/ListaLigada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cadastroalunos/modelos/Celula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cadastroalunos/modelos/Celula.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cadastroalunos/principal/TestaListaLigada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cadastroalunos/principal/TestaListaLigada.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +108,8 @@
       <workItem from="1711736220006" duration="3258000" />
       <workItem from="1711801408727" duration="8406000" />
       <workItem from="1711970046324" duration="6682000" />
-      <workItem from="1712137811097" duration="7593000" />
+      <workItem from="1712137811097" duration="8386000" />
+      <workItem from="1712226152825" duration="2677000" />
     </task>
     <task id="LOCAL-00001" summary="Criação de classe vetor e implementação do método adiciona do vetor">
       <option name="closed" value="true" />
@@ -199,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711976695198</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="implementação de métodos removeDoFim e remove">
+      <option name="closed" value="true" />
+      <created>1712146595750</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712146595750</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +225,8 @@
     <MESSAGE value="Implementação de ambos os métodos adiciona" />
     <MESSAGE value="Implementação dos métodos pega e tamanho na classe Lista Ligada" />
     <MESSAGE value="Implementação do método remove no começo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação do método remove no começo" />
+    <MESSAGE value="implementação de métodos removeDoFim e remove" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementação de métodos removeDoFim e remove" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

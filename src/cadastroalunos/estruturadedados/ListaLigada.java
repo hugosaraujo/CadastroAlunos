@@ -106,7 +106,16 @@ public class ListaLigada {
     public int tamanho(){
         return this.totalDeElementos;
     }
-    public boolean contem(Object elemento){return false;}
+    public boolean contem(Object elemento){
+        Celula atual = this.primeira;
+        while(atual != null){
+            if(atual.getElemento().equals(elemento)){
+                return true;
+            }
+            atual = atual.getProximo();
+        }
+        return false;
+    }
 
     @Override
     public String toString() {
