@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f268f27d-2528-43a2-a7a4-9956afbda8c8" name="Changes" comment="implementação de métodos removeDoFim e remove">
+    <list default="true" id="f268f27d-2528-43a2-a7a4-9956afbda8c8" name="Changes" comment="criação do método contém da ListaLigada">
+      <change afterPath="$PROJECT_DIR$/src/cadastroalunos/estruturadedados/Pilha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cadastroalunos/principal/TestePilha.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cadastroalunos/estruturadedados/ListaLigada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cadastroalunos/estruturadedados/ListaLigada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cadastroalunos/principal/TestaListaLigada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cadastroalunos/principal/TestaListaLigada.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.TestaListaLigada.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestePilha.executor&quot;: &quot;Run&quot;,
     &quot;Application.VetorTeste.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -52,9 +53,22 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestaListaLigada">
+  <component name="RunManager" selected="Application.TestePilha">
     <configuration name="TestaListaLigada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cadastroalunos.principal.TestaListaLigada" />
+      <module name="CadastroAlunos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cadastroalunos.principal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestePilha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cadastroalunos.principal.TestePilha" />
       <module name="CadastroAlunos" />
       <extension name="coverage">
         <pattern>
@@ -81,6 +95,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestePilha" />
         <item itemvalue="Application.TestaListaLigada" />
         <item itemvalue="Application.VetorTeste" />
       </list>
@@ -109,7 +124,8 @@
       <workItem from="1711801408727" duration="8406000" />
       <workItem from="1711970046324" duration="6682000" />
       <workItem from="1712137811097" duration="8386000" />
-      <workItem from="1712226152825" duration="2677000" />
+      <workItem from="1712226152825" duration="4775000" />
+      <workItem from="1712274942296" duration="673000" />
     </task>
     <task id="LOCAL-00001" summary="Criação de classe vetor e implementação do método adiciona do vetor">
       <option name="closed" value="true" />
@@ -207,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712146595750</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="criação do método contém da ListaLigada">
+      <option name="closed" value="true" />
+      <created>1712229811277</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712229811277</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +250,8 @@
     <MESSAGE value="Implementação dos métodos pega e tamanho na classe Lista Ligada" />
     <MESSAGE value="Implementação do método remove no começo" />
     <MESSAGE value="implementação de métodos removeDoFim e remove" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementação de métodos removeDoFim e remove" />
+    <MESSAGE value="criação do método contém da ListaLigada" />
+    <option name="LAST_COMMIT_MESSAGE" value="criação do método contém da ListaLigada" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
