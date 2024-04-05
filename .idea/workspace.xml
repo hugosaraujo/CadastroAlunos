@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f268f27d-2528-43a2-a7a4-9956afbda8c8" name="Changes" comment="criação do método contém da ListaLigada">
-      <change afterPath="$PROJECT_DIR$/src/cadastroalunos/estruturadedados/Pilha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cadastroalunos/principal/TestePilha.java" afterDir="false" />
+    <list default="true" id="f268f27d-2528-43a2-a7a4-9956afbda8c8" name="Changes" comment="criação de métodos remove e vazia para exluir e avaliar se a pilha está vazia">
+      <change afterPath="$PROJECT_DIR$/src/cadastroalunos/estruturadedados/Fila.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cadastroalunos/principal/TestaFila.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,24 +36,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.TestaListaLigada.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestePilha.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VetorTeste.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.TestaFila.executor": "Run",
+    "Application.TestaListaLigada.executor": "Run",
+    "Application.TestePilha.executor": "Run",
+    "Application.VetorTeste.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.TestePilha">
+}]]></component>
+  <component name="RunManager" selected="Application.TestaFila">
+    <configuration name="TestaFila" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cadastroalunos.principal.TestaFila" />
+      <module name="CadastroAlunos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cadastroalunos.principal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestaListaLigada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cadastroalunos.principal.TestaListaLigada" />
       <module name="CadastroAlunos" />
@@ -95,6 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestaFila" />
         <item itemvalue="Application.TestePilha" />
         <item itemvalue="Application.TestaListaLigada" />
         <item itemvalue="Application.VetorTeste" />
@@ -125,7 +140,8 @@
       <workItem from="1711970046324" duration="6682000" />
       <workItem from="1712137811097" duration="8386000" />
       <workItem from="1712226152825" duration="4775000" />
-      <workItem from="1712274942296" duration="673000" />
+      <workItem from="1712274942296" duration="1475000" />
+      <workItem from="1712315378668" duration="2202000" />
     </task>
     <task id="LOCAL-00001" summary="Criação de classe vetor e implementação do método adiciona do vetor">
       <option name="closed" value="true" />
@@ -231,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712229811277</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="criação de métodos remove e vazia para exluir e avaliar se a pilha está vazia">
+      <option name="closed" value="true" />
+      <created>1712275966911</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712275966911</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +275,8 @@
     <MESSAGE value="Implementação do método remove no começo" />
     <MESSAGE value="implementação de métodos removeDoFim e remove" />
     <MESSAGE value="criação do método contém da ListaLigada" />
-    <option name="LAST_COMMIT_MESSAGE" value="criação do método contém da ListaLigada" />
+    <MESSAGE value="criação de métodos remove e vazia para exluir e avaliar se a pilha está vazia" />
+    <option name="LAST_COMMIT_MESSAGE" value="criação de métodos remove e vazia para exluir e avaliar se a pilha está vazia" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
